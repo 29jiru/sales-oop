@@ -81,7 +81,7 @@ class User extends Database {
         if($result = $this->conn->query($sql)){
             return $result;
         }else{
-            die('Error retriecing all products: ' . $this->conn->error);
+            die('Error retrieving all products: ' . $this->conn->error);
         }
     }
 
